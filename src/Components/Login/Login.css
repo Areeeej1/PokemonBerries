@@ -1,0 +1,37 @@
+.login{
+    margin-top: 8%;
+    font-size: 170% ;
+    background-color: cadetblue;
+    height: fit-content;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+   
+}
+input{
+
+    width: inherit;
+    margin-top: 4%;
+  font-size:  100%;
+
+}
+button{
+    
+    cursor: pointer;
+    margin-top: 4%;
+    font-size: 100%;
+}
+.error{
+    color: red;
+    padding-bottom: 0.2%;
+}
+@media screen and (max-width: 450px) and (min-width: 280px) {
+    .login {
+        font-size: 100% ;
+    }
+}
+@media screen and (max-width: 280px) {
+    .login {
+        font-size: 50% ;
+    }
+}
